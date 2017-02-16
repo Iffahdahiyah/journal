@@ -1,0 +1,83 @@
+
+body {
+  background-color: lightblue;
+  margin-top: 60px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.contact{
+  border: 0px;
+  background: pink;
+  font:12pt courier;
+  padding: 0px 20px;
+  /* width: 300px; */
+  float: right;
+  /* margin-right: 20px; */
+}
+.nav {
+    margin-top: 150px;
+}
+
+h1 {
+  font: bold 12pt courier;
+  text-align: center;
+}
+
+.tel {
+  border: 0px;
+  font:10pt Courier;
+  /* padding: 0 5px 5px 0; */
+  /* width: 400px; */
+  text-align: center;
+}
+
+.email {
+  background: pink;
+  font: 10pt Courier;
+  /* padding: 0 5px 5px 0; */
+  /* width: 400px; */
+  text-align: center;
+}
+
+ul li {
+  font: 12pt Courier;
+  display: inline-block;
+  position: relative;
+  padding: 0 0px 0px 0;
+}
+
+.menu-one {
+  padding:10;
+
+}
+
+.menu-one li {
+  padding:0;
+  width: 24%;
+  text-align: center;
+}
+
+.menu-one a {
+  text-decoration: none;
+  transition: color .4s ease;
+}
+
+.menu-one a:hover {
+  color: white;
+}
+
+hr{
+  border-color: pink;
+}
+
+.menu-two li {
+  margin-top: 10px;
+  width: 24%;
+  text-align: center;
+}
+
+.menu-two a {
+  text-decoration: none;
+  transition: color . 4s ease;
+}
