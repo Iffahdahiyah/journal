@@ -77,7 +77,11 @@ hr{
   text-align: center;
 }
 
+.menu-two li.selected a {
+  color: red;
+}
+
 .menu-two a {
   text-decoration: none;
-  transition: color . 4s ease;
+  transition: color 0.4s ease;
 }
